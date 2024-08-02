@@ -1,0 +1,15 @@
+git status  // revisamos el estado actual (rojo working directory,
+ /// verde el stage area)
+ // el stage area es la caja sin cerrar
+
+git add archivo.js // movemos el archivo a la caja que estamos preparando
+git commit -m 'feat: added file named archivo.js' //cerramos la caja
+git status //revisamos el estado actual
+git push origin tu-branch // subimos el branch
+
+#Ramas
+git checkout -b otra-branch-remota // creamos y nos posicionamos en un branch llamado otra-branch-remota
+git branch -a // vemos todas las ramas que tenemos
+git push -u origin otra-branch-remota
+
+git pull // traemos todas las ramas y cambios en el branch actual
